@@ -1,0 +1,19 @@
+name: 'Shelby Assets Sync'
+description: 'Automatically sync folders to Shelby Global Storage'
+inputs:
+  shelby-api-key:
+    description: 'Your Shelby API Key'
+    required: true
+  source-dir:
+    description: 'The directory to sync'
+    required: true
+    default: './assets'
+  bucket-name:
+    description: 'Target bucket on Shelby'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
+branding:
+  icon: 'upload-cloud'
+  color: 'orange'
