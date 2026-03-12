@@ -1,0 +1,10 @@
+{
+  "name": "shelby-assets-sync-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for Shelby Storage",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@shelby-xyz/sdk": "latest"
+  }
+}
